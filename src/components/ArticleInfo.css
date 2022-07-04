@@ -1,0 +1,96 @@
+.article{
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: #000;
+}
+
+.card-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+   
+    /* grid-template-columns: repeat(3, 1fr); */
+}
+
+.card-container .card {
+    border: 1px solid #eee;
+    color: #eee;
+}
+
+.card {
+    text-align: center;
+    padding: 1rem;
+    
+}
+.card img {
+    width:  700px;
+    height: 500px;
+    
+}
+
+.card:hover {
+    background-color: #141414;
+}
+
+
+
+.card .btc {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.article p {
+    color: #eee;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.card .btn {
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+@media screen and (max-width: 980px) {
+    .card-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+
+.cont{
+    padding: 1rem 1rem;
+        margin: 2rem;
+        background-color: black;
+        font-size: 1.2rem;
+        color:black;
+        font-family: 'Sacramento''cursive';
+        /* text-shadow: 1px 1px 1px ; */
+        border-radius: 8px;
+}
+
+.cont p {
+    color: white;
+    
+}
+
+.cont h2 {
+    color: white;
+    
+}
+.cont h4 {
+    color: white;
+    
+}
+
+.btn-art{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    margin: 2rem 30rem;
+    background-color:green;
+}
+
