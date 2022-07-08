@@ -28,7 +28,8 @@ export default function QuestionsForm() {
         // setData(newData)
         fetch("http://localhost:3001/userData",  {
         method: "POST",
-        header:{"content-Type": "application/json" },
+        headers:{"Content-Type": "application/json",
+                 "Accept": "application/json" },
           body: JSON.stringify({
             name:name, 
             email:email, 
@@ -37,9 +38,9 @@ export default function QuestionsForm() {
             
           })
         })
-        .then(res => res.json)
+        .then(res => res.json())
         .then((data) => {
-        console.log("new post "+ data)
+        console.log("new post " + data)
         setMessage("Thank you, we will contact you soon");
         setTimeout(function(){
             navigate('/')
