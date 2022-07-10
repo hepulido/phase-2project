@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+### `Instalations`
+npm install react-router-dom.
+ npm install react-icons.
+
+ Don't forget to run the JSON-server, json-server --port 3001 --watch server/db.json.
+
 ## Available Scripts
 
 In the project directory, you can run:
